@@ -1,0 +1,6 @@
+@ArtCollectionOrganizer_HostAddress = http://localhost:5214
+
+GET {{ArtCollectionOrganizer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

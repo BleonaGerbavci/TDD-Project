@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bleon\\OneDrive\\Desktop\\TDD-project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5D846B-3150-4B84-8B49-736E1C658536}|TDD-project\\TDD-project.csproj|c:\\users\\bleon\\onedrive\\desktop\\tdd-project\\tdd-project\\updateartpiecestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF5D846B-3150-4B84-8B49-736E1C658536}|TDD-project\\TDD-project.csproj|solutionrelative:tdd-project\\updateartpiecestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5D846B-3150-4B84-8B49-736E1C658536}|TDD-project\\TDD-project.csproj|c:\\users\\bleon\\onedrive\\desktop\\tdd-project\\tdd-project\\deleteartpiecestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF5D846B-3150-4B84-8B49-736E1C658536}|TDD-project\\TDD-project.csproj|solutionrelative:tdd-project\\deleteartpiecestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C424479-7B7E-4CC6-A37F-C88B257CC2E5}|ArtCollectionOrganizer\\ArtCollectionOrganizer.csproj|c:\\users\\bleon\\onedrive\\desktop\\tdd-project\\artcollectionorganizer\\services\\artpieceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C424479-7B7E-4CC6-A37F-C88B257CC2E5}|ArtCollectionOrganizer\\ArtCollectionOrganizer.csproj|solutionrelative:artcollectionorganizer\\services\\artpieceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5D846B-3150-4B84-8B49-736E1C658536}|TDD-project\\TDD-project.csproj|c:\\users\\bleon\\onedrive\\desktop\\tdd-project\\tdd-project\\searchartpiecestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF5D846B-3150-4B84-8B49-736E1C658536}|TDD-project\\TDD-project.csproj|solutionrelative:tdd-project\\searchartpiecestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5D846B-3150-4B84-8B49-736E1C658536}|TDD-project\\TDD-project.csproj|c:\\users\\bleon\\onedrive\\desktop\\tdd-project\\tdd-project\\addartpiecestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF5D846B-3150-4B84-8B49-736E1C658536}|TDD-project\\TDD-project.csproj|solutionrelative:tdd-project\\addartpiecestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C424479-7B7E-4CC6-A37F-C88B257CC2E5}|ArtCollectionOrganizer\\ArtCollectionOrganizer.csproj|c:\\users\\bleon\\onedrive\\desktop\\tdd-project\\artcollectionorganizer\\models\\artpiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C424479-7B7E-4CC6-A37F-C88B257CC2E5}|ArtCollectionOrganizer\\ArtCollectionOrganizer.csproj|solutionrelative:artcollectionorganizer\\models\\artpiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 71,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateArtPiecesTests.cs",
+              "DocumentMoniker": "C:\\Users\\bleon\\OneDrive\\Desktop\\TDD-project\\TDD-project\\UpdateArtPiecesTests.cs",
+              "RelativeDocumentMoniker": "TDD-project\\UpdateArtPiecesTests.cs",
+              "ToolTip": "C:\\Users\\bleon\\OneDrive\\Desktop\\TDD-project\\TDD-project\\UpdateArtPiecesTests.cs",
+              "RelativeToolTip": "TDD-project\\UpdateArtPiecesTests.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAqwD0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T19:50:34.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddArtPiecesTests.cs",
+              "DocumentMoniker": "C:\\Users\\bleon\\OneDrive\\Desktop\\TDD-project\\TDD-project\\AddArtPiecesTests.cs",
+              "RelativeDocumentMoniker": "TDD-project\\AddArtPiecesTests.cs",
+              "ToolTip": "C:\\Users\\bleon\\OneDrive\\Desktop\\TDD-project\\TDD-project\\AddArtPiecesTests.cs",
+              "RelativeToolTip": "TDD-project\\AddArtPiecesTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T19:50:03.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteArtPiecesTests.cs",
+              "DocumentMoniker": "C:\\Users\\bleon\\OneDrive\\Desktop\\TDD-project\\TDD-project\\DeleteArtPiecesTests.cs",
+              "RelativeDocumentMoniker": "TDD-project\\DeleteArtPiecesTests.cs",
+              "ToolTip": "C:\\Users\\bleon\\OneDrive\\Desktop\\TDD-project\\TDD-project\\DeleteArtPiecesTests.cs",
+              "RelativeToolTip": "TDD-project\\DeleteArtPiecesTests.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwEEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T19:51:06.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SearchArtPiecesTests.cs",
+              "DocumentMoniker": "C:\\Users\\bleon\\OneDrive\\Desktop\\TDD-project\\TDD-project\\SearchArtPiecesTests.cs",
+              "RelativeDocumentMoniker": "TDD-project\\SearchArtPiecesTests.cs",
+              "ToolTip": "C:\\Users\\bleon\\OneDrive\\Desktop\\TDD-project\\TDD-project\\SearchArtPiecesTests.cs",
+              "RelativeToolTip": "TDD-project\\SearchArtPiecesTests.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAADMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T19:51:33.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArtPieceService.cs",
+              "DocumentMoniker": "C:\\Users\\bleon\\OneDrive\\Desktop\\TDD-project\\ArtCollectionOrganizer\\Services\\ArtPieceService.cs",
+              "RelativeDocumentMoniker": "ArtCollectionOrganizer\\Services\\ArtPieceService.cs",
+              "ToolTip": "C:\\Users\\bleon\\OneDrive\\Desktop\\TDD-project\\ArtCollectionOrganizer\\Services\\ArtPieceService.cs",
+              "RelativeToolTip": "ArtCollectionOrganizer\\Services\\ArtPieceService.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAUwCYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T19:01:42.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ArtPiece.cs",
+              "DocumentMoniker": "C:\\Users\\bleon\\OneDrive\\Desktop\\TDD-project\\ArtCollectionOrganizer\\Models\\ArtPiece.cs",
+              "RelativeDocumentMoniker": "ArtCollectionOrganizer\\Models\\ArtPiece.cs",
+              "ToolTip": "C:\\Users\\bleon\\OneDrive\\Desktop\\TDD-project\\ArtCollectionOrganizer\\Models\\ArtPiece.cs",
+              "RelativeToolTip": "ArtCollectionOrganizer\\Models\\ArtPiece.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T18:53:05.136Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 426,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
