@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArtCollectionOrganizer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b71bf7f8046b2af41c96ca9bd088b90ed9f5191")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArtCollectionOrganizer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArtCollectionOrganizer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
