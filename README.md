@@ -1,4 +1,4 @@
-**Art Collection Organizer**
+# **Art Collection Organizer**
 This repository contains the codebase for the Art Collection Organizer, a system designed to manage and organize art pieces, including functionalities for adding, updating, buying, deleting, and searching art pieces. 
 The repository also includes a suite of unit tests to ensure the correct functionality of the system.
 
@@ -22,7 +22,7 @@ DeleteArtPiecesTests: Tests for removing art pieces from the collection.
 SearchArtPiecesTests: Tests for searching and filtering art pieces.
 UpdateArtPiecesTests: Tests for updating art pieces in the collection.
 
-**Setup and Installation**
+##  **Setup and Installation**
 
 **Prerequisites**
 .NET SDK 6 or later
