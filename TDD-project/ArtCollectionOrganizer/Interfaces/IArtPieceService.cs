@@ -8,11 +8,11 @@ namespace ArtCollectionOrganizer.Interfaces
     {
         public Task<ActionResult<List<ArtPieceDto>>> GetAllArtPieces();
         public Task<ActionResult<ArtPieceDto>> GetArtPieceById(int id);
-        public Task<ActionResult<ArtPieceDto>> GetArtPieceByTitle(string title);
         public Task<ActionResult> AddArtPiece(ArtPieceDto artPieceDto);
         public Task<ActionResult> UpdateArtPiece(int id, UpdateArtPieceDto updateArtPieceDto);
         public Task<ActionResult> DeleteArtPiece(int id);
         public Task<List<ArtPiece>> SearchArtPieces(string title = null, int? yearStart = null, int? yearEnd = null);
         public Task<List<ArtPiece>> FilterArtPieces(string category);
+        public Task<ActionResult> BuyArtPiece(int id);
     }
 }

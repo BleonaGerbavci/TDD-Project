@@ -67,7 +67,7 @@ namespace ArtCollectionOrganizer.Services
             var artPiece = _mapper.Map<ArtPiece>(artPieceDto);
             await _context.ArtPieces.AddAsync(artPiece);
             await _context.SaveChangesAsync();
-            return new OkObjectResult("Art piece was successfully added!");
+            return new OkObjectResult(artPiece);
         }
 
 
@@ -80,7 +80,17 @@ namespace ArtCollectionOrganizer.Services
             var artPiece = await _context.ArtPieces.FindAsync(id);
             if (artPiece == null)
                 return new BadRequestObjectResult("Art piece does not exist!");
-   
+
+            if (updateArtPieceDto.Year.HasValue && updateArtPieceDto.Year.Value > DateTime.Now.Year)
+            {
+                return new BadRequestObjectResult("Year cannot be in the future.");
+            }
+
+            if (updateArtPieceDto.Price.HasValue && updateArtPieceDto.Price.Value < 0)
+            {
+                return new BadRequestObjectResult("Price cannot be negative.");
+            }
+
             artPiece.Title = updateArtPieceDto.Title ?? artPiece.Title;
             artPiece.Artist = updateArtPieceDto.Artist ?? artPiece.Artist;
             artPiece.Year = updateArtPieceDto.Year ?? artPiece.Year;
@@ -103,26 +113,6 @@ namespace ArtCollectionOrganizer.Services
             _context.ArtPieces.Remove(artPiece);
             await _context.SaveChangesAsync();
             return new OkObjectResult("Art piece was successfully deleted!");
-        }
-
-        // nuk bon!!!!!!!!!!!!!!!!!
-        public async Task<ActionResult<ArtPieceDto>> GetArtPieceByTitle(string title)
-        {
-            if (string.IsNullOrWhiteSpace(title))
-            {
-                return new BadRequestObjectResult("Title cannot be null or empty!");
-            }
-
-            // Ensure that both the database and the input are in the same case for comparison.
-            var artPiece = await _context.ArtPieces
-                .FirstOrDefaultAsync(a => a.Title.ToLower() == title.ToLower());
-
-            if (artPiece == null)
-            {
-                return new NotFoundObjectResult($"No art piece found with the title '{title}'.");
-            }
-
-            return new OkObjectResult(_mapper.Map<ArtPieceDto>(artPiece));
         }
 
 
@@ -160,5 +150,22 @@ namespace ArtCollectionOrganizer.Services
                 .Where(a => a.Category.ToLower() == category.ToLower())
                 .ToListAsync();
         }
+
+        public async Task<ActionResult> BuyArtPiece(int id)
+        {
+            var artPiece = await _context.ArtPieces.FindAsync(id);
+            if (artPiece == null)
+                return new NotFoundObjectResult("Art piece does not exist!");
+
+            if (artPiece.IsSold)
+                return new BadRequestObjectResult("Art piece is already sold!");
+
+            artPiece.IsSold = true;
+
+            await _context.SaveChangesAsync();
+
+            return new OkObjectResult($"Art piece '{artPiece.Title}' by {artPiece.Artist} was successfully purchased!");
+        }
+
     }
 }

@@ -49,17 +49,6 @@ namespace ArtCollectionOrganizer.Controllers
             return Ok(result);
         }
 
-        [HttpGet("title/{title}")]
-        public async Task<ActionResult<ArtPieceDto>> GetArtPieceByTitle(string title)
-        {
-            var result = await _artPieceService.GetArtPieceByTitle(title);
-            if (result == null)
-            {
-                return NotFound($"No art piece found with the title '{title}'");
-            }
-            return Ok(result);
-        }
-
         [HttpPost("artpiece")]
         public async Task<ActionResult> AddArtPiece(ArtPieceDto artPieceDto)
         {
@@ -77,5 +66,12 @@ namespace ArtCollectionOrganizer.Controllers
         {
             return await _artPieceService.DeleteArtPiece(id);
         }
+
+        [HttpPost("{id}/buy")]
+        public async Task<ActionResult> BuyArtPiece(int id)
+        {
+            return await _artPieceService.BuyArtPiece(id);
+        }
+
     }
 }
